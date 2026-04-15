@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff"/>
+      <stop offset="50%" style="stop-color:#ff7b72"/>
+      <stop offset="100%" style="stop-color:#58a6ff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  
+  <!-- Circuit traces (decorative) -->
+  <g stroke="#21262d" stroke-width="2" fill="none">
+    <!-- Horizontal traces -->
+    <line x1="0" y1="100" x2="300" y2="100"/>
+    <line x1="0" y1="530" x2="250" y2="530"/>
+    <line x1="900" y1="80" x2="1200" y2="80"/>
+    <line x1="950" y1="550" x2="1200" y2="550"/>
+    <!-- Vertical traces -->
+    <line x1="300" y1="0" x2="300" y2="100"/>
+    <line x1="250" y1="530" x2="250" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="80"/>
+    <line x1="950" y1="550" x2="950" y2="630"/>
+    <!-- Nodes -->
+    <circle cx="300" cy="100" r="4" fill="#21262d"/>
+    <circle cx="250" cy="530" r="4" fill="#21262d"/>
+    <circle cx="900" cy="80" r="4" fill="#21262d"/>
+    <circle cx="950" cy="550" r="4" fill="#21262d"/>
+  </g>
+  
+  <!-- Break line (the "circuit break") -->
+  <line x1="380" y1="315" x2="520" y2="315" stroke="#58a6ff" stroke-width="3" opacity="0.6"/>
+  <line x1="680" y1="315" x2="820" y2="315" stroke="#58a6ff" stroke-width="3" opacity="0.6"/>
+  <!-- Gap with spark -->
+  <line x1="540" y1="300" x2="560" y2="330" stroke="#ff7b72" stroke-width="2.5" opacity="0.8"/>
+  <line x1="560" y1="330" x2="580" y2="295" stroke="#ff7b72" stroke-width="2.5" opacity="0.8"/>
+  <line x1="580" y1="295" x2="600" y2="325" stroke="#ff7b72" stroke-width="2.5" opacity="0.8"/>
+  <line x1="600" y1="325" x2="620" y2="300" stroke="#ff7b72" stroke-width="2.5" opacity="0.8"/>
+  <line x1="620" y1="300" x2="640" y2="330" stroke="#ff7b72" stroke-width="2.5" opacity="0.8"/>
+  <line x1="640" y1="330" x2="660" y2="305" stroke="#ff7b72" stroke-width="2.5" opacity="0.8"/>
+  
+  <!-- Title -->
+  <text x="600" y="260" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="72" font-weight="700" fill="#e6edf3" letter-spacing="-1">Circuit Break</text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="400" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="24" fill="#8b949e">Notes on building with AI coding agents</text>
+  
+  <!-- Author -->
+  <text x="600" y="560" text-anchor="middle" font-family="ui-monospace, 'SF Mono', monospace" font-size="18" fill="#484f58">samfoy.github.io</text>
+</svg>
