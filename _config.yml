@@ -44,8 +44,8 @@ comments:
   giscus:
     repo: samfoy/circuit-break
     repo_id: R_kgDOSDpY4w
-    category: General
-    category_id: DIC_kwDOSDpY484C7N8Z
+    category: Announcements
+    category_id: DIC_kwDOSDpY484C7N8Y
     mapping: pathname
     strict: 0
     input_position: top
