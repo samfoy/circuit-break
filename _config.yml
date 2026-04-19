@@ -6,6 +6,8 @@ theme: jekyll-theme-chirpy
 lang: en
 timezone: America/Los_Angeles
 
+future: true
+
 title: Circuit Break
 tagline: Notes on building with AI coding agents
 
