@@ -20,10 +20,16 @@ baseurl: "/circuit-break"
 github:
   username: samfoy
 
+twitter:
+  username: samfoypainter
+
 social:
-  name: samfoy
+  name: Sam Painter
+  email: sam.foy.painter@gmail.com
   links:
+    - https://x.com/samfoypainter
     - https://github.com/samfoy
+    - https://www.linkedin.com/in/sam-painter-04248580
 
 social_preview_image: /assets/img/social-preview.png
 
@@ -32,6 +38,19 @@ avatar: https://avatars.githubusercontent.com/u/590916?v=4
 theme_mode: dark
 
 toc: true
+
+comments:
+  provider: giscus
+  giscus:
+    repo: samfoy/circuit-break
+    repo_id: R_kgDOSDpY4w
+    category: General
+    category_id: DIC_kwDOSDpY484C7N8Z
+    mapping: pathname
+    strict: 0
+    input_position: top
+    lang: en
+    reactions_enabled: 1
 
 paginate: 10
 
@@ -57,7 +76,7 @@ defaults:
       type: posts
     values:
       layout: post
-      comments: false
+      comments: true
       toc: true
       permalink: /posts/:title/
   - scope:
